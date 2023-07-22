@@ -26,3 +26,8 @@ Install the required libraries using pip install pandas numpy json os pandasgui 
 Download the code and the dataset.
 Set the directory containing the JSON files in the json_dir variable.
 Run the code. The output of the code will be displayed in the console and in the PandasGui window. The final cleaned dataset will be stored in a CSV file called car1.csv.
+### to-do:
+- [x] Preprocessing
+- [x] Visualizing
+- [ ] Machine-Learning
+- [ ] Maybe some deep-learning
