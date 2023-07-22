@@ -1,5 +1,5 @@
 # Divar-Car-Prediction(Tehran)
-The presented code is based on real car data collected from the (divar.ir)[#https://divar.ir/s/tehran/vehicles] website until the spring of 1402. The data was consolidated into a comprehensive file, which was then subjected to various techniques to improve its quality and reduce noise and errors. These techniques aimed to make the data more suitable for further analysis and learning purposes. The resulting dataset and the techniques used to improve it are available for use and can be accessed for further study.
+The presented code is based on real car data collected from the [divar.ir](#https://divar.ir/s/tehran/vehicles) website until the spring of 1402. The data was consolidated into a comprehensive file, which was then subjected to various techniques to improve its quality and reduce noise and errors. These techniques aimed to make the data more suitable for further analysis and learning purposes. The resulting dataset and the techniques used to improve it are available for use and can be accessed for further study.
 ## Preprocessing
 This code aims to preprocess data extracted from a collection of JSON files.
 
