@@ -46,19 +46,17 @@ The importance of each feature in predicting car prices is analyzed using the tr
 Before removing outliers and cleaning the data, the model achieved the following results:
 
 - R-squared: 0.891
-- MSE: 134,155,034,425,309,360.00
-- MAE: 111,245,727.10
-
+- MSE: 115556058841774528.00
+- MAE: 100103601.33
 After training and evaluating the Random Forest regression model, the following results were obtained:
 
-- R-squared: 0.970
-- MSE: 11,411,474,984,066,076.00
-- MAE: 33,759,678.07
-
+- R-squared: 0.983
+- MSE: 7697444285992863.00
+- MAE: 33584104.47
 ## Conclusion
-The results indicate a significant improvement in the model's performance after removing outliers and cleaning the data. The R-squared value of 0.970 suggests that the model can explain 97% of the variance in the car prices. The lower MSE and MAE values (11,411,474,984,066,076.00 and 33,759,678.07, respectively) indicate smaller errors between the predicted and actual car prices.
+The improved model shows significant performance enhancements compared to the initial model. The R-squared value increased from 0.891 to 0.983, indicating that the refined model explains a larger portion of the variance in car prices. The mean squared error (MSE) decreased from 1.155e+17 to 7.697e+15, representing a reduction in the model's prediction errors. Additionally, the mean absolute error (MAE) decreased from 1.001e+08 to 3.358e+07, indicating a better accuracy in predicting car prices.
 
-The initial model, without data cleaning, had a lower R-squared value of 0.891 and higher MSE and MAE values (134,155,034,425,309,360.00 and 111,245,727.10, respectively). This indicates that the model's performance was significantly improved by removing outliers and cleaning the data.
+These results demonstrate the effectiveness of the data cleaning process and the refinement of the Random Forest regression model in improving its predictive performance for car prices.
 
 Based on these results, we can conclude that the Random Forest regression model, trained on the cleaned dataset, is effective in predicting car prices. It captures important relationships between the features and target variable, leading to accurate price predictions. Further improvements could be made by exploring other regression algorithms, feature engineering techniques, or fine-tuning the model's hyperparameters.
 
