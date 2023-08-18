@@ -48,6 +48,7 @@ Before removing outliers and cleaning the data, the model achieved the following
 - R-squared: 0.891
 - MSE: 1.155e+17
 - MAE: 1.001e+08
+
 After training and evaluating the Random Forest regression model, the following results were obtained:
 
 - R-squared: 0.983
