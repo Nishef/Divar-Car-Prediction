@@ -46,13 +46,13 @@ The importance of each feature in predicting car prices is analyzed using the tr
 Before removing outliers and cleaning the data, the model achieved the following results:
 
 - R-squared: 0.891
-- MSE: 115556058841774528.00
-- MAE: 100103601.33
+- MSE: 1.155e+17
+- MAE: 1.001e+08
 After training and evaluating the Random Forest regression model, the following results were obtained:
 
 - R-squared: 0.983
-- MSE: 7697444285992863.00
-- MAE: 33584104.47
+- MSE: 7.697e+15
+- MAE: 3.358e+07
 ## Conclusion
 The improved model shows significant performance enhancements compared to the initial model. The R-squared value increased from 0.891 to 0.983, indicating that the refined model explains a larger portion of the variance in car prices. The mean squared error (MSE) decreased from 1.155e+17 to 7.697e+15, representing a reduction in the model's prediction errors. Additionally, the mean absolute error (MAE) decreased from 1.001e+08 to 3.358e+07, indicating a better accuracy in predicting car prices.
 
